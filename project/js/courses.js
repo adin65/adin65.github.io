@@ -111,6 +111,15 @@ app.controller("courseCtrl", function($scope) {
                 "description": "Predicate Logic, First-Order Logic, Logical Implication, Definability, Deduction, Gödel's Completeness Theorem"
             },
             {
+                "code": "MATC34",
+                "courseName": "Complex Variables",
+                "semester": "Winter 2022",
+                "link": "https://utsc.calendar.utoronto.ca/course/matc34h3",
+                "notesLink": "/documents/MATC34Notes.pdf",
+                "notesName": "MATC34Notes",
+                "description": "Analytic and Meromorphic Functions, Integrals over Curves, Cauchy's Theorem, Residue Calculus, Rouche's Theorem"
+            },
+            {
                 "code": "STAB52",
                 "courseName": "An Introduction to Probability",
                 "semester": "Summer 2020",
