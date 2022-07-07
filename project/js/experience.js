@@ -21,7 +21,7 @@ app.controller("experienceCtrl", function($scope) {
             },
             {
                 "name": "TutorOcean Online Tutor",
-                "date": "Oct 2020 -",
+                "date": "Oct 2020 - Mar 2022",
                 //"link": "projects/maintenanceNotif",
                 "image": "/images/tutoroceanLogo.jpg",
                 "description": "In the interest of gaining teaching experience, I became a part-time online tutor to mentoring High School and University Students on various Math subjects.",
