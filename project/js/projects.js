@@ -3,6 +3,12 @@ app.controller("projectCtrl", function($scope) {
 
         $scope.projectList = [
             {
+                "name": "Campfire - Web App",
+                "link": "projects/campfire",
+                "image": "/images/campfireLogo.png",
+                "description": "A web application to create immersive story-telling experiences."
+            },
+            {
                 "name": "Epsilon - Web App",
                 "link": "projects/epsilon",
                 "image": "/images/epsilonLogo.png",
