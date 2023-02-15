@@ -6,7 +6,7 @@ app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname));
 
 // views is directory for all template files
-app.set('views', __dirname + '/html');
+app.set('views', __dirname + '/project/html');
 app.set('view engine', 'ejs');
 
 // Set up the app's routing
