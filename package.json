@@ -4,7 +4,10 @@
   "description": "A sample Node.js app using Express 4",
   "main": "index.js",
   "scripts": {
-    "start": "node project/start.js"
+    "build": "node project/start.js build",
+    "start": "node project/start.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "ejs": "^2.5.6",
@@ -18,10 +21,14 @@
     "type": "git",
     "url": "https://github.com/heroku/node-js-getting-started"
   },
+  "homepage": "https://adin65.github.io/profile",
   "keywords": [
     "node",
     "heroku",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }

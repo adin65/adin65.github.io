@@ -4,6 +4,14 @@ app.controller("experienceCtrl", function($scope) {
 
         $scope.experienceList = [
             {
+                "name": "Macau Pui Ching Middle School Math AI Teacher",
+                "date": "Sept 2022 - Present",
+                //"link": "projects/maintenanceNotif",
+                "image": "/images/PCMSLogo.png",
+                "description": "Creating and teaching a new curriculum for junior secondary Maths and AI with the goal to improve students' critical thinking skills.",
+                "orgLink":"http://www.puiching.edu.mo/"
+            },
+            {
                 "name": "University of Toronto Teaching Assistant",
                 "date": "Sept 2021 - Apr 2022",
                 //"link": "projects/maintenanceNotif",
