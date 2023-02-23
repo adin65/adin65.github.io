@@ -4,10 +4,7 @@
   "description": "A sample Node.js app using Express 4",
   "main": "index.js",
   "scripts": {
-    "build": "node project/start.js build",
-    "start": "node project/start.js start",
-    "predeploy": "npm run build",
-    "deploy": "npm run build && gh-pages"
+    "start": "node project/start.js"
   },
   "dependencies": {
     "ejs": "^2.5.6",
