@@ -4,9 +4,9 @@ Check it out at: https://pacific-plateau-64936.herokuapp.com/
 
 Make sure you've followed all instructions for [BaseWebApp](https://github.com/zsobin/BaseWebApp)
 
-1) Add new app pages: Add pages called `about.ejs`, `projects.ejs`, `contact.ejs` to [html/pages](https://github.com/zsobin/PersonalWebApp/tree/master/src/html/pages). These files can be empty for now, or you could add something like `<h1> Hello! </h1>` so you know it's rendering.
+1) Add new app pages: Add pages called `about.ejs`, `projects.ejs`, `contact.ejs` to [html/pages](https://github.com/zsobin/PersonalWebApp/tree/master/project/html/pages). These files can be empty for now, or you could add something like `<h1> Hello! </h1>` so you know it's rendering.
 
-2) Add routing - modify your server-side code in `src/start.js` to support routing. [See code here](https://github.com/zsobin/PersonalWebApp/blob/master/project/start.js#L13-L23)
+2) Add routing - modify your server-side code in `project/start.js` to support routing. [See code here](https://github.com/zsobin/PersonalWebApp/blob/master/project/start.js#L13-L23)
 
 *Since this updates the code that runs on the server, you need to restart your server to view the changes locally. You can do this by pressing control + c, and then then running `heroku local web` again. 
 

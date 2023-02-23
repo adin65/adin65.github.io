@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    <% include ../../helpers/head %>
+</head>
+<body>
+    <div class="col-lg-12" style="width:100%;margin:0; padding:0">
+        <% include ../../helpers/navbar %>
+    </div>
+    <main class="content">
+        <div class="col-lg-12 titleBackground">
+            <h2>Campfire - Web App</h2>
+            <h3>
+            Winter 2022<br />
+            CSCC09 (Programming on the Web) Group Project
+            </h3>
+        </div>
+        <div class="col-lg-12">
+            <div class="container">
+            <img src="/images/campfireBanner.png" width="100%"/>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8" style="margin-top:1%">
+            <p>
+            For our CSCC09 (Programming on the Web) project, we are allowed to create any kind of web application that
+            is not a game. We looked at the various libraries React has and two ideas came to mind: using React 360 
+            to create a skybox for images that the user uploads and playing sound effects as the user describes the sound.
+            With these two ideas and our initial idea of creating a web application to suppot DnD gameplay, a web application
+            that allows a host to create a chatroom with a skybox background to tell stories complimented with sound effects 
+            is created.
+            </p>
+            <p>
+                In a lobby, the narrator would upload a series of background images to set up the scenes. The narrator would
+                 tell the story on a voice chat, while sound effects will be auto played based on the narrators live speech. 
+                 Specifically, the application would utilize natural language processing to determine entities (i.e rain, thunder, swords) 
+                 in the narrator's speech to trigger associated sound effects. This process would occur live, with the sound effects
+                 being triggered almost instantaneously to ensure an enveloping listening experience. While listening to the narrator and 
+                 hearing the sound effects, the user would view a track of 360 scenes to engage the user's visual senses.
+            </p>
+            <div class="container">
+                <img src="/images/campfireAddScene.png" width="100%"/>
+                <p class="caption">
+                A screenshot of the lobby creation page
+                </p>
+            </div>
+            <div class="container">
+                <img src="/images/campfireRoom.png" width="100%"/>
+                <p class="caption">
+                A screenshot of the lobby page (narrator's view)
+                </p>
+            </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+        <div class="col-lg-12">
+            <div class="col-lg-2">&nbsp;</div>
+            <div class="col-lg-8" style="margin:1% 0">
+                <blockquote>
+                    The front-end of the app is built using <br>
+                    <b>React, Typescript</b><br>
+                    <b>Tailwind CSS</b><br>
+                    And the following libraries: <br>
+                    <b>React Three Fibre</b> <br>
+                    <b>Simple-Peer</b> <br>
+                    <b>DnDContext</b> <br>
+                    <b>Howl.js</b> <br>
+                    <br>
+                    The back-end of the app is built using <br>
+                    <b>Node.js, Express</b><br>
+                    <b>GraphQL, MongoDB</b><br>
+                    And the following libraries: <br>
+                    <b>Google Natural Language ML</b> <br>
+                    <b>Google Speech to Text</b> <br>
+                    <b>Socket.io</b> <br>
+                    <br>
+                    We used the following tools to support our development: <br>
+                    <b>GitHub</b><br>
+                    <b>Jira</b> for tracking our sprint progress<br>
+                    <b>Discord</b> for our meetings<br>
+                    <b>Figma</b> for constructing our wireframe mockup<br>
+                    </blockquote> 
+                <br>
+                <!-- <div class="container">
+                    <img src="/images/macroRecorder.png" width="100%"/>
+                    <p class="caption">
+                    The macro recorder feature in MS Excel
+                    </p>
+                </div> -->
+                <p>
+                    Part of the requirement is to deploy the application. We used a VM on Amazon Web Services as the host. 
+                    We went onto Namecheap to obtain a domain name and an ssl certificate for our nginx reverse proxy. 
+                    Our application is dockerized into frontend and backend containers, and uses nginx to serve the static files
+                     and as a reverse proxy. The frontend is secured by Cloudflare.
+                </p>
+
+            </div>
+        </div>
+    
+        <div class="col-lg-12" style="margin-top: 2%">
+            <div class="col-lg-6 col-md-6" style="margin-top: 2%">
+            <p>
+                Creating a web app from scratch is very challenging. I would like to thank my teammates Wilson Mak and Yiyang Zhou
+                for the big carry, especially at the very beginning when I am learning how to use React. We did it!
+
+                For those curious, unfortunately, the site is down. But as usual, here's a demo video of how it works.
+                Here's the <a href="https://github.com/UTSCC09/project-dungeon-masters">link</a> to the GitHub repo!
+            </p>
+
+            </div>
+            
+            <div class="col-lg-6 col-md-6" style="padding:0">
+            <div class="container" style="margin:1% 5%; width:90%">
+                <div style="position: relative; height: 0; overflow: hidden; padding-bottom: 56.25%; /* 16/9 ratio */ border-style: none;">
+                    <iframe style="position: absolute; top:0; left: 0; width: 100%; height: 100%;" src="https://www.youtube-nocookie.com/embed/nY1_1eiRgig?modestbranding=1">
+                    </iframe>
+                </div>
+                <p class="caption">
+                Video Demo
+                </p>
+            </div>
+            </div>
+        </div>          
+        <img id="seagull" class="col-xs-2 col-sm-2 col-md-2 col-lg-1" src="/images/Seagull.png" />
+    </main>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="width:100%;margin:0; padding:0">
+    <% include ../../helpers/footer %>
+    </div>
+</body>
+</html>
