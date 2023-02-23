@@ -21,7 +21,6 @@
     "type": "git",
     "url": "https://github.com/heroku/node-js-getting-started"
   },
-  "homepage": "https://adin65.github.io/",
   "keywords": [
     "node",
     "heroku",
@@ -30,5 +29,6 @@
   "license": "MIT",
   "devDependencies": {
     "gh-pages": "^5.0.0"
-  }
+  },
+  "stack": "heroku-22"
 }
