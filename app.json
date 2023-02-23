@@ -4,5 +4,6 @@
   "repository": "",
   "logo": "",
   "keywords": ["node", "express", "static"],
-  "image": "heroku/nodejs"
+  "image": "heroku/nodejs",
+  "stack": "heroku-22"
 }
