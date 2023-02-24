@@ -35,7 +35,7 @@ Make sure you've followed all instructions for [BaseWebApp](https://github.com/z
 
 ```
   <header>
-    <%- include ('../helpers/navbar') %>
+    <% include ../helpers/navbar %>
   </header>
 ```
     
